@@ -159,9 +159,9 @@ const currencies = [{
         id: 'RUB', name: 'Russian Ruble'
       }];
       
-      const apiBase = 'https://free.currconv.com/api/v7/';
+      const apiBase = 'https://free.currencyconverter.com/api/v6/';
       const api = (currency,currency2) => `
-        ${apiBase}convert?q=${currency}_${currency2}&compact=ultra&apiKey=e354f769f88c8a9837b6`;
+        ${apiBase}convert?q=${currency}_${currency2}&compact=ultra&apiKey=bc3c1ae7e4fe84c4cce0`;
     
         const toast = (msg) => {
             const toastr = document.querySelector('.messages');
